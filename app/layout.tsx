@@ -8,9 +8,16 @@ import Header from "@/components/header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AI Full-Stack Developer Portfolio",
-  description: "Portfolio website showcasing my skills, projects, and experience as an AI Full-Stack Developer",
-    generator: 'v0.dev'
+  title: "Bhipendar Kumar | Portfolio",
+  description: "Full Stack Developer & Flutter Developer",
+  icons: {
+    icon: [
+      {
+        url: "/profilelogo.png",
+        href: "/profilelogo.png",
+      }
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -20,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" type="image/png" href="/profilelogo.png" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div className="relative flex min-h-screen flex-col">
