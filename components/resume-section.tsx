@@ -59,7 +59,7 @@ export default function ResumeSection() {
             asChild
           >
             <Link 
-              href="/Resume.1.pdf" 
+              href="/CV.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               download="Bhipendar_Resume.pdf"
