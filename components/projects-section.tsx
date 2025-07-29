@@ -46,6 +46,19 @@ export default function ProjectsSection() {
       gradient: "from-[#00b894] to-[#00cec9]"
     },
     {
+      title: "ADmyBRAND",
+      subtitle: "SaaS Landing Page",
+      description: [
+        "A modern, responsive landing page for the fictional AI-powered marketing tool ADmyBRAND AI Suite. Built using Next.js 14+, TypeScript, and Tailwind CSS, the page follows 2025 design trends like glassmorphism, scroll-based animations, and mobile-first UX."
+      ],
+      image: "/home.png",
+      icon: <TrendingUp className="w-5 h-5" />,
+      tags: ["Next.js", "Typescript", "Tailwind CSS"],
+      github: "https://github.com/bhipendar14",
+      demo: "https://admybrand-landing-roan.vercel.app/",
+      gradient: "from-[#FFB6C1] to-[#FFD700]"
+    },
+    {
       title: "Pet Pickup Service",
       subtitle: "Real-time Booking System",
       description: [
