@@ -55,7 +55,7 @@ export default function ProjectsSection() {
       icon: <TrendingUp className="w-5 h-5" />,
       tags: ["Next.js", "Typescript", "Tailwind CSS"],
       github: "https://github.com/bhipendar14",
-      demo: "https://admybrand-landing-roan.vercel.app/",
+      demo: "https://admybrand-landing-tsp6.vercel.app/",
       gradient: "from-[#FFB6C1] to-[#FFD700]"
     },
     {
