@@ -124,7 +124,7 @@ export default function HeroSection() {
             }`}
           >
             <Image
-              src="/profilelogo.png"
+              src="/profilelogo.jpg"
               alt="Alex Johnson"
               width={400}
               height={400}
