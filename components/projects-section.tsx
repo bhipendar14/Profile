@@ -5,7 +5,7 @@ import { useInView } from "framer-motion"
 import { useRef } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Github, ExternalLink, ShoppingCart, Calendar, TrendingUp } from "lucide-react"
+import { Github, ExternalLink, ShoppingCart, Calendar, Monitor, TrendingUp } from "lucide-react"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 
@@ -14,6 +14,20 @@ export default function ProjectsSection() {
   const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   const projects = [
+        {
+      title: "MerAi",
+      subtitle: "AI-Powered Multi-Module Web Application",
+      description: [
+        "Built a full-stack, real-time web app with AI chat, voice input, file upload, live news, stock charts, entertainment, travel booking, code tools, mini games, and user profile management.",
+        "Integrated AI capabilities, live APIs, and real-time data streaming for advanced functionality.",
+        "Designed responsive, interactive UI for seamless multi-module navigation."
+            ],
+      image: "/meraai.png",
+      icon: <Monitor className="w-5 h-5" />,
+      tags: ["Next.js", "TypeScript", "Socket.io", "Nodemailer", "MongoDB", "REST API", "Tailwind CSS"],
+      demo: "https://mera-ai-one.vercel.app/",
+      gradient: "from-[#12302A] to-[#10B981]"
+    },
     {
       title: "DSR Group Mandasaur",
       subtitle: "Finance & Stock Market Website",
